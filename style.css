@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin: 60px 20px;
+    background-color: #FAFAFA;
+}
+
+.box{
+    width: 500px;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.traveler{
+    width: 350px;
+    height: 290px;
+    padding: 60px 75px 40px 75px;
+}
+
+h1{
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+h2{
+    font-size: 16px;
+    font-weight: 500;
+    margin: 60px 0px 15px 0px;
+}
+
+p{
+    font-size: 16px;
+    font-weight: 300;
+    color: #8B8B8B;
+    margin-bottom: 30px;
+
+}
+
+.tlacitko{
+    font-size: 14px;
+    color: white;
+    font-weight: 500;
+    padding: 10px 30px;
+    border-radius: 20px;
+    margin: 0;
+}
+
+.dobrodruzstvi{
+    background-color: #407BFF;
+    width: 195px;
+    margin-bottom: 10px;
+}
+
+.pohoda{
+    background-color: #8B8B8B;
+    width: 225px;
+    /* má tady být 220, ale s touto hodnotou se mi to zalamuje na další řádek */
+}
+    
+.tlacitka{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bod p{
+    font-size: 13px;
+    padding: 30px 20px 20px 20px;
+}
+
+.bod{
+    display: flex;
+    background-color: white;
+    margin-bottom: 15px;
+    box-shadow: 0px 4px 6px #407BFF1F;
+    border-radius: 10px;
+}
+
+.bod img{
+    padding: 20px;
+}
+
+@media screen and (min-width: 640px) and (max-width: 1100px){
+.tlacitka{
+flex-direction: row;
+justify-content: center;
+}
+
+.dobrodruzstvi{
+    margin-bottom: 0;
+    margin-right: 20px;
+}
+
+h2{
+    margin: 80px 0px 17px 0px;
+}
+
+p{
+    margin-bottom: 40px;
+}
+
+.box{
+    width: 550px;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.sluzby{
+    display: flex;
+    flex: 1 1 calc((100% - 80px) / 3);
+
+}
+
+.bod{
+    flex-direction: column;
+}
+
+
+
+}
