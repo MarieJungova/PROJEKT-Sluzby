@@ -101,7 +101,7 @@ p{
 }
 
 .box{
-    width: 550px;
+    width: 768px;
 	max-width: 100%;
 	margin: 0 auto;
 }
@@ -109,20 +109,35 @@ p{
 .sluzby{
     display: flex;
     justify-content: space-evenly;
+    width: 768px;
+    max-width: 100%;
 }
 
 .bod{
     flex-direction: column;
-    flex-basis: calc((100% - 80px) / 3);
-
+    width: 230px;
+    max-width: 100%;
+    flex-basis: calc((100% - 100px) / 3);
 }
 
 .bod img{
     padding: 40px 95px 0px 95px;
+    
 }
 
 .bod p{
     margin: 0;
     padding: 20px 15px;
 }
+
+.padesat{
+    width: 550px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+}
+
+@media screen and (min-width: 1101px){
+
+    
 }
