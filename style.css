@@ -108,18 +108,27 @@ p {
     }
 
     .box{
-        width: 550px;
+        width: 770px;
         max-width: 100%;
         margin: 0 auto;
+    }
+
+    .text{
+        width: 550px;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 40px;
+
     }
 
     .sluzby {
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        width: 768px;
-        margin: 0 auto;
+        margin: 0;
+        max-width: 100%;
     }
+
 
     .bod {
         flex-direction: column;
@@ -139,8 +148,8 @@ p {
     }
 
     .traveler{
-    width: 400px;
-    max-width: 100%;
+        width: 400px;
+        max-width: 100%;
 }
 
 }
@@ -153,6 +162,54 @@ p {
         margin: 0 auto;
     }
 
+    
+    .prvniradek{
+        display: flex;
+        justify-content: space-between;
 
+    }
 
+    .obrazek{
+        flex: 0 0 490px;
+        order: 1;
+    }
+
+    .obsah{
+        flex: 0 1 490px;
+    }
+
+    .text{
+        width: 490px;
+        max-width: 100%;
+    }
+
+    .druhyradek{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .sluzbyck{
+        order: 1;
+        width: 430px;
+        max-width: 100%;
+    }
+
+    .sluzbyck p,
+    .sluzbydelegatu p{
+        width: 430px;
+        max-width: 100%;
+    }
+
+    .sluzby{
+        /* width: 550px;          */
+        max-width: 100%;
+    }
+    
+
+    .tretiradek{
+        display: flex;
+        justify-content: space-between;
+
+    }
+    
 }
