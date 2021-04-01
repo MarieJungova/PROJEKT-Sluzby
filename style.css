@@ -1,37 +1,44 @@
-html { box-sizing: border-box;}
-*, :after, :before {box-sizing: inherit;}
+html {
+    box-sizing: border-box;
+}
 
-body{
+*,
+:after,
+:before {
+    box-sizing: inherit;
+}
+
+body {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     margin: 60px 20px;
     background-color: #FAFAFA;
 }
 
-.box{
+.box {
     width: 500px;
-	max-width: 100%;
-	margin: 0 auto;
+    max-width: 100%;
+    margin: 0 auto;
 }
 
-.traveler{
+.traveler {
     width: 350px;
     height: 290px;
     padding: 60px 75px 40px 75px;
 }
 
-h1{
+h1 {
     font-size: 28px;
     margin-bottom: 40px;
 }
 
-h2{
+h2 {
     font-size: 16px;
     font-weight: 500;
     margin: 60px 0px 15px 0px;
 }
 
-p{
+p {
     font-size: 16px;
     font-weight: 300;
     color: #8B8B8B;
@@ -39,7 +46,7 @@ p{
 
 }
 
-.tlacitko{
+.tlacitko {
     font-size: 14px;
     color: white;
     font-weight: 500;
@@ -48,27 +55,27 @@ p{
     margin: 0;
 }
 
-.dobrodruzstvi{
+.dobrodruzstvi {
     background-color: #407BFF;
     margin-bottom: 10px;
 }
 
-.pohoda{
+.pohoda {
     background-color: #8B8B8B;
 }
-    
-.tlacitka{
+
+.tlacitka {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.bod p{
+.bod p {
     font-size: 13px;
     padding: 30px 20px 20px 20px;
 }
 
-.bod{
+.bod {
     display: flex;
     background-color: white;
     margin-bottom: 15px;
@@ -76,68 +83,76 @@ p{
     border-radius: 10px;
 }
 
-.bod img{
+.bod img {
     padding: 20px;
 }
 
-@media screen and (min-width: 640px) and (max-width: 1100px){
+@media screen and (min-width: 640px) {
 
-.tlacitka{
-flex-direction: row;
-justify-content: center;
-}
+    .tlacitka {
+        flex-direction: row;
+        justify-content: center;
+    }
 
-.dobrodruzstvi{
-    margin-bottom: 0;
-    margin-right: 20px;
-}
+    .dobrodruzstvi {
+        margin-bottom: 0;
+        margin-right: 20px;
+    }
 
-h2{
-    margin: 80px 0px 17px 0px;
-}
+    h2 {
+        margin: 80px 0px 17px 0px;
+    }
 
-p{
-    margin-bottom: 40px;
-}
+    p {
+        margin-bottom: 40px;
+    }
 
-.box{
-    width: 768px;
-	max-width: 100%;
-	margin: 0 auto;
-}
+    .box{
+        width: 550px;
+        max-width: 100%;
+        margin: 0 auto;
+    }
 
-.sluzby{
-    display: flex;
-    justify-content: space-evenly;
-    width: 768px;
+    .sluzby {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 768px;
+        margin: 0 auto;
+    }
+
+    .bod {
+        flex-direction: column;
+        width: 230px;
+        max-width: 100%;
+        flex-basis: calc((100% - 100px) / 3);
+    }
+
+    .bod img {
+        padding: 40px 95px 0px 95px;
+
+    }
+
+    .bod p {
+        margin: 0;
+        padding: 20px 15px;
+    }
+
+    .traveler{
+    width: 400px;
     max-width: 100%;
 }
 
-.bod{
-    flex-direction: column;
-    width: 230px;
-    max-width: 100%;
-    flex-basis: calc((100% - 100px) / 3);
 }
 
-.bod img{
-    padding: 40px 95px 0px 95px;
-    
-}
+@media screen and (min-width: 1100px) {
 
-.bod p{
-    margin: 0;
-    padding: 20px 15px;
-}
+    .box {
+        width: 1040px;
+        max-width: 100%;
+        margin: 0 auto;
+    }
 
-.padesat{
-    width: 550px;
-    max-width: 100%;
-    margin: 0 auto;
-}
-}
 
-@media screen and (min-width: 1101px){
 
-    
 }
