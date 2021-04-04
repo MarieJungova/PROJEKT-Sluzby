@@ -29,6 +29,11 @@ body {
 
 h1 {
     font-size: 28px;
+}
+
+hr{
+    width: 60px;
+    border-bottom: 2px solid #407BFF;
     margin-bottom: 40px;
 }
 
@@ -118,6 +123,7 @@ p {
         margin: 0 auto;
         text-align: center;
         margin-bottom: 40px;
+        max-width: 100%;
 
     }
 
@@ -166,12 +172,17 @@ p {
     .prvniradek{
         display: flex;
         justify-content: space-between;
+        margin-bottom: 80px;
 
     }
 
     .obrazek{
         flex: 0 0 490px;
         order: 1;
+    }
+
+    .traveler{
+        width: 425px;
     }
 
     .obsah{
@@ -186,12 +197,13 @@ p {
     .druhyradek{
         display: flex;
         justify-content: space-between;
+        max-width: 100%;
+        margin-bottom: 80px;
     }
 
     .sluzbyck{
         order: 1;
-        width: 430px;
-        max-width: 100%;
+        flex: 0 0 430px;
     }
 
     .sluzbyck p,
@@ -201,15 +213,26 @@ p {
     }
 
     .sluzby{
-        /* width: 550px;          */
+        flex: 0 1 550px;
+    }
+    
+    .tretiradek{
+        display: flex;
+        justify-content: space-between;
         max-width: 100%;
     }
     
 
-    .tretiradek{
-        display: flex;
-        justify-content: space-between;
+    .bod {
+        width: 160px;
+        max-width: 100%;
+        flex: 0 1 calc((100% - 100px) / 3);
+    }
+
+    .bod img{
+        width: 45px;
+        padding: 0;
+        margin: 15px auto;
 
     }
-    
 }
