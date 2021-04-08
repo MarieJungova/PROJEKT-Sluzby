@@ -235,4 +235,9 @@ p {
         margin: 15px auto;
 
     }
+
+    hr{
+        display: inline-block;
+        margin-left: -135px;
+    }
 }
